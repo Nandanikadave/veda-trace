@@ -1,3 +1,4 @@
+import ContactUs from "@/components/ContactUs";
 import HeroSection from "@/components/HeroSection";
 import HowWeWork from "@/components/HowWeWork";
 import Stories from "@/components/Stories";
@@ -55,6 +56,23 @@ export default function Home() {
 
        <HowWeWork />
        <Stories />
+
+       <section className="bg-[#000000] opacity-86 w-full h-[90vh] rounded-[5rem] flex items-center  flex-col justify-between pt-32 pb-10">
+          <Image
+        src="/Group 4.png"
+        alt="Hero Image"
+        width={600}
+        height={200}
+      />
+
+      <Image
+        src="/Vector 11.png"
+        alt="Hero Image"
+        width={20}
+        height={2}
+      />
+       </section>
+        <ContactUs />
     </div>
   );
 }

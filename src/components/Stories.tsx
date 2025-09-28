@@ -94,7 +94,7 @@ export default function Stories() {
         <p className='max-w-md text-center text-gray-600 mb-10'>Updates, insights and stories of those who have guaranteed purity at the source.</p>
       </div>
 
-      <div className="flex justify-center items-center w-full relative">
+      <div className="flex justify-center items-center w-full relative mt-20">
         <div className="relative flex items-center justify-center w-full max-w-4xl">
           
           <div className="flex justify-center items-center w-full h-[500px] relative">
@@ -116,7 +116,7 @@ export default function Stories() {
       </div>
       <button
         onClick={handlePrev}
-        className="absolute left-0 top-1/2 -translate-y-1/2 ml-4 p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow z-30 text-gray-700 w-20 h-20 flex items-center justify-center"
+        className="absolute left-0 top-1/2 mt-20 -translate-y-1/2 ml-4 p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow z-30 text-gray-700 w-20 h-20 flex items-center justify-center"
         aria-label="Previous story"
       >
         <ChevronLeft size={24} />
@@ -124,12 +124,16 @@ export default function Stories() {
 
       <button
         onClick={handleNext}
-        className="absolute right-0 top-1/2 -translate-y-1/2 mr-4 p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow z-30 text-gray-700 w-20 h-20 flex items-center justify-center"
+        className="absolute right-0 top-1/2 mt-20 -translate-y-1/2 mr-4 p-3 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow z-30 text-gray-700 w-20 h-20 flex items-center justify-center"
         aria-label="Next story"
       >
         <ChevronRight size={24} />
       </button>
-
+<div className='w-full items-center justify-center flex mt-20'>
+<button className="bg-[#AAD475] px-12 py-4 rounded-full text-white font-semibold">
+            Learn more
+          </button>
+          </div>
     </section>
   );
 }
