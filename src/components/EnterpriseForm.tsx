@@ -20,7 +20,7 @@ const DashedInput = ({ label, id, register, error }) => (
             <input
                 type={id.includes('email') ? 'email' : 'text'}
                 id={id}
-                className={`w-full py-2 px-3 h-[40px] text-lg text-[#2C2C2C] bg-transparent border-1  border-dashed border-[#CCCCCC] focus:border-solid focus:border-[#A3D17A] 
+                className={`w-full py-2 px-3 h-[40px] text-lg text-[#2C2C2C] bg-transparent border-1 rounded-full border-dashed border-[#CCCCCC] focus:border-solid focus:border-[#A3D17A] 
                             focus:ring-0 focus:outline-none transition-all duration-200 placeholder:text-[#B0B0B0] appearance-none`}
                 {...register(id)} 
             />
@@ -38,7 +38,7 @@ const DashedSelect = ({ label, id, options, register, error }) => (
         <div className="relative">
             <select
                 id={id}
-                className={`w-full py-2 px-3 h-[40px] text-lg text-[#2C2C2C] bg-transparent border-1 border-dashed border-[#CCCCCC] focus:border-solid focus:border-[#A3D17A] 
+                className={`w-full py-2 px-3 h-[40px] text-lg text-[#2C2C2C] rounded-full bg-transparent border-1 border-dashed border-[#CCCCCC] focus:border-solid focus:border-[#A3D17A] 
                             focus:ring-0 focus:outline-none transition-all duration-200 appearance-none cursor-pointer`}
                 {...register(id)} 
                 defaultValue="" // Use empty value to display 'Select...' placeholder
