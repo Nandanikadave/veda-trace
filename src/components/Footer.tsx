@@ -11,8 +11,8 @@ function Footer() {
           <Image 
             src="/LOGO 1.png" 
             alt="VedaTrace Logo" 
-            width={400} 
-            height={133} 
+            width={600} 
+            height={233} 
             className="object-contain"
           />
           <div className="text-[#2C2C2C] text-sm mt-2">
@@ -56,10 +56,8 @@ function Footer() {
           
           {/* Back to Top Button */}
           <Link href="#top" className="flex flex-col items-center">
-            <div className="text-[#2C2C2C] font-medium">
-                <Image src="/footerarrow.png" alt="VedaTrace Logo" width={30} height={40} />
-              <span className="font-bold text-6xl">BACK</span><br/>
-              <span className="font-bold text-6xl">TO TOP</span>
+            <div>
+                <Image src="/Group 6.png" alt="VedaTrace Logo" width={180} height={300} />
             </div>
           </Link>
         </div>

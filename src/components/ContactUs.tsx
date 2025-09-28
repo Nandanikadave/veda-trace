@@ -37,6 +37,14 @@ function ContactUs() {
            <p className="text-lg text-[#2C2C2C] leading-relaxed text-justify">
              Need Verified Data for Your ERP? Stop wasting time on manual audits. If your business uses ERP systems , our APIs grant you direct access to real-time, standardized traceability data from the immutable ledger.
            </p>
+            <Image
+                className='mt-60'
+        src="/contact-us.png"
+        alt="Hero Image"
+        width={700}
+        height={700}
+        
+      />
          </div>
        </section>
   )
