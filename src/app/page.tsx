@@ -57,13 +57,16 @@ export default function Home() {
        <HowWeWork />
        <Stories />
 
-       <section className="bg-[#000000] opacity-86 w-full h-[90vh] rounded-[5rem] flex items-center  flex-col justify-between pt-32 pb-10">
-          <Image
-        src="/Group 4.png"
-        alt="Hero Image"
-        width={600}
-        height={200}
-      />
+       <section className="bg-[#000000] opacity-86 w-[90%] h-[70vh] mx-auto rounded-[5rem] flex items-center flex-col justify-between pt-32 pb-10">
+          <div className="flex justify-center w-full">
+            <Image
+              src="/Group 4.png"
+              alt="Hero Image"
+              width={600}
+              height={150}
+              className="mx-auto"
+            />
+          </div>
 
       <Image
         src="/Vector 11.png"
