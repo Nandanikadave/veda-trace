@@ -26,7 +26,7 @@ function HeroSection() {
         className="relative -mt-90 -ml-25"
       />
 
-      <div className="absolute top-[31rem] left-[50rem]">
+      <div className="absolute top-[28rem] left-[49rem]">
         <div className="flex gap-3 items-center mb-3 ">
           <p className="text-[#9C8F81] font-medium">Ethically Grown</p>
           <Sparkle size={10} className="text-[#9C8F81]" />
