@@ -11,7 +11,7 @@ interface FillButtonProps {
 
 
 function Navbar() {
-  const buttonStyle = 'bg-[#F0E3D5] text-[#2c2c2c] px-3 py-2 rounded-full text-xs sm:text-sm font-medium hover:bg-[#C9BAA8] transition-colors flex items-center gap-2 font-sans shadow-sm';
+  const buttonStyle = 'bg-[#F0E3D5] text-[#2c2c2c] px-3 py-2 rounded-full text-xs sm:text-sm font-medium hover:bg-[#C9BAA8] transition-colors flex items-center gap-2 font-sans shadow-sm ';
   const iconWrapper = 'p-[5px] rounded-full flex items-center justify-center';
 
   const FillButton = ({ children, hoverBgColor, textColor, baseBgColor, href }: FillButtonProps) => (
@@ -60,11 +60,11 @@ function Navbar() {
 
   return (
     
-    <nav className='w-full z-50 top-0 fixed p-4 flex justify-between items-center bg-[#FBF4EC] shadow-md'> 
+    <nav className='w-full z-50 top-0 fixed p-4 flex justify-between items-center bg-[#FBF4EC]'> 
       
       <div className='flex gap-2 sm:gap-4'>
         <FillButton
-          href="#how-we-work" 
+          href="/#how-we-work" 
           hoverBgColor="bg-[#C9BAA8]" 
           baseBgColor="bg-[#F0E3D5]" 
           textColor="text-[#2c2c2c]"
@@ -73,7 +73,7 @@ function Navbar() {
         </FillButton>
 
         <FillButton
-          href="#stories" 
+          href="/#stories" 
           hoverBgColor="bg-[#C9BAA8]" 
           baseBgColor="bg-[#F0E3D5]" 
           textColor="text-[#2c2c2c]"
@@ -83,14 +83,14 @@ function Navbar() {
       </div>
 
 
-      <div className='absolute left-1/2 transform -translate-x-1/2'>
+      <div className='absolute left-1/2 transform -translate-x-1/2 -mt-5'>
         <img
 
           src="/logo.png"
 
           alt='VedaTrace Logo'
 
-          width={120}
+          width={180}
 
           height={120}
 
@@ -98,7 +98,7 @@ function Navbar() {
       </div>
 
       <FillButton
-      href="#contact-us" 
+      href="/#contact-us" 
         hoverBgColor="bg-[#62625E]" 
         baseBgColor="bg-[#3B3B3A]" 
         textColor="text-white"

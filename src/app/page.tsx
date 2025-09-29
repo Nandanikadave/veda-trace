@@ -14,7 +14,7 @@ export default function Home() {
           alt="Hero Image"
           width={600}
           height={200}
-          className="max-w-full h-auto"
+          className="max-w-full h-auto mt-50"
         />
       </div>
       <section className="relative w-full min-h-screen overflow-hidden -mt-60">

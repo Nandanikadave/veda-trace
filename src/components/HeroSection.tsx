@@ -6,16 +6,16 @@ function HeroSection() {
   return (
     <div className='w-full min-h-screen justify-center flex items-center'>
         <Image
-        src="/hero.png"
+        src="/image.png"
         alt="Hero Image"
-        width={700}
+        width={600}
         height={200}
-        className="mt-[8rem]"
+        className="mt-[9rem]"
       />
       <div className="text-[6rem] font-bold text-black font-merriweather">
         <h1 className='-ml-50 -mt-50'>TRACING</h1>
-        <h1 className="rotate-5 -mt-12 -ml-30">ANCIENT</h1>
-        <h1 className="-mt-12 -ml-30">WISDOM</h1>
+        <h1 className="rotate-5 -mt-12 -ml-20">ANCIENT</h1>
+        <h1 className="-mt-12 -ml-25">WISDOM</h1>
       </div>
 
       <Image
@@ -23,7 +23,7 @@ function HeroSection() {
         alt="Hero Image"
         width={140}
         height={50}
-        className="relative -mt-90 -ml-16"
+        className="relative -mt-90 -ml-25"
       />
 
       <div className="absolute top-[31rem] left-[50rem]">
