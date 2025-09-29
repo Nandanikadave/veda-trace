@@ -3,12 +3,12 @@ import Image from 'next/image'
 import { EnterpriseForm } from './EnterpriseForm'
 function ContactUs() {
   return (
-    <section className="relative w-full min-h-screen  mt-40 ">
+    <section className="relative w-full min-h-screen  mt-30 ">
          {/* Yellow Left Border */}         
          {/* Cream Vertical Stripes */}
 
          {/* Wavy Green Line */}
-         <div className="absolute inset-0 z-20 -mt-40 right-0 w-full left-[35%]">
+         <div className="absolute inset-0 z-20 -mt-30 right-0 w-full left-[35%]">
            <Image
         src="/Vector 13.png"
         alt="Hero Image"
@@ -29,7 +29,7 @@ function ContactUs() {
 
            <div className="mt-[2rem]"> 
                 <EnterpriseForm />
-            </div>s
+            </div>
          </div>
 
          {/* Right Text Block */}
@@ -38,11 +38,12 @@ function ContactUs() {
              Need Verified Data for Your ERP? Stop wasting time on manual audits. If your business uses ERP systems , our APIs grant you direct access to real-time, standardized traceability data from the immutable ledger.
            </p>
             <Image
-                className='mt-60'
+                className='mt-60 '
         src="/contact-us.png"
         alt="Hero Image"
-        width={700}
-        height={700}
+        width={2000}
+        height={2000}
+
         
       />
          </div>

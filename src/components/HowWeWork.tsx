@@ -30,7 +30,7 @@ function HowWeWork() {
             <h1 className="text-9xl">1</h1>
             <h1 className="text-5xl">PINPOINT <br/> ORIGIN</h1>
             </div>
-            <p className="max-w-[80%] font-light">Farmers use GPS to record the exact location, time, and identity for the harvest. This initial "Collection Event" is digitally sealed.</p>
+            <p className="max-w-[80%] font-light">Farmers use GPS to record the exact location, time, and identity for the harvest. This initial &ldquo;Collection Event&ldquo; is digitally sealed.</p>
         </div>
         </div>
         <div className="flex w-full px-32 mt-155 gap-50 items-center">
