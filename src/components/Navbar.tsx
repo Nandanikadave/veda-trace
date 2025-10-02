@@ -59,8 +59,8 @@ function Navbar() {
   );
 
   return (
-    
-    <nav className='w-full z-50 top-0 fixed p-4 flex justify-between items-center bg-[#FBF4EC]'> 
+    <section className='w-full z-50 top-0 fixed '>
+    <nav className='w-full p-4 flex justify-between items-center bg-[#FBF4EC]'> 
       
       <div className='flex gap-2 sm:gap-4'>
         <FillButton
@@ -105,7 +105,57 @@ function Navbar() {
       >
         {contactUsContent}
       </FillButton>
+
+      
     </nav>
+
+    <div className='bg-gradient-to-r from-[#AAD475] to-[#FF8E53] flex justify-between items-center px-6 py-3 shadow-lg '>
+      <div className='flex items-center gap-3'>
+        <div className='bg-white/20 backdrop-blur-sm rounded-full p-2'>
+          <span className='text-2xl'>🚧</span>
+        </div>
+        <div className='flex flex-col'>
+          <span className='text-white text-lg font-bold tracking-wide'>
+            WORK IN PROGRESS
+          </span>
+          <span className='text-white/80 text-xs'>
+            Product under active development
+          </span>
+        </div>
+      </div>
+      <div className='flex items-center gap-4'>
+        <span className='text-white font-medium text-sm'>
+          Click here to view government dashboards:
+        </span>
+        <div className='flex items-center gap-2'>
+          <a 
+            href="https://processing.vaayunsports.com/processing" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className='bg-white text-[#AAD475] px-3 py-2 rounded-full font-bold text-xs hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-md'
+          >
+            Processing
+          </a>
+          <a 
+            href="https://labtest.vaayunsports.com/labtest" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className='bg-white text-[#AAD475] px-3 py-2 rounded-full font-bold text-xs hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-md'
+          >
+            Lab Test
+          </a>
+          <a 
+            href="https://brand.vaayunsports.com/brand" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className='bg-white text-[#AAD475] px-3 py-2 rounded-full font-bold text-xs hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-md'
+          >
+            Brand
+          </a>
+        </div>
+      </div>
+    </div>
+    </section>
   );
 }
 

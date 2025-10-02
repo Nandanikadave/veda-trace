@@ -4,7 +4,7 @@ import { Sparkle } from 'lucide-react'
 
 function HeroSection() {
   return (
-    <div className='w-full min-h-screen justify-center flex items-center'>
+    <div className='w-full min-h-screen justify-center flex items-center mt-10'>
         <Image
         src="/image.png"
         alt="Hero Image"
@@ -26,7 +26,7 @@ function HeroSection() {
         className="relative -mt-90 -ml-25"
       />
 
-      <div className="absolute top-[28rem] left-[49rem]">
+      <div className="absolute top-[32rem] left-[49rem]">
         <div className="flex gap-3 items-center mb-3 ">
           <p className="text-[#9C8F81] font-medium">Ethically Grown</p>
           <Sparkle size={10} className="text-[#9C8F81]" />
